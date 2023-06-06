@@ -1,0 +1,658 @@
+Which_mobile_crossplatform_flutter
+    use what_to_use(Flutter)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_native_crossplatform($ans1)
+        check $ans1 in (2,)
+        webapp_questions.mobile_crossplatform_budget($ans2)
+        check $ans2 in (2,)
+        webapp_questions.mobile_crossplatform_native_apis($ans3)
+        check $ans3 in (2,)
+        webapp_questions.mobile_crossplatform_external_prebuilt($ans4)
+        check $ans4 in (1,)
+
+Which_mobile_crossplatform_flutter1
+    use what_to_use(Flutter)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_native_crossplatform($ans1)
+        check $ans1 in (2,)
+        webapp_questions.mobile_crossplatform_budget($ans2)
+        check $ans2 in (2,)
+        webapp_questions.mobile_crossplatform_native_apis($ans3)
+        check $ans3 in (2,)
+        webapp_questions.mobile_crossplatform_external_prebuilt($ans4)
+        check $ans4 in (3,)
+        webapp_questions.mobile_crossplatform_performance_flexiblity($ans5)
+        check $ans5 in (1,)
+
+Which_mobile_crossplatform_react
+    use what_to_use(ReactNative)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_native_crossplatform($ans1)
+        check $ans1 in (2,)
+        webapp_questions.mobile_crossplatform_budget($ans2)
+        check $ans2 in (2,)
+        webapp_questions.mobile_crossplatform_native_apis($ans3)
+        check $ans3 in (2,)
+        webapp_questions.mobile_crossplatform_external_prebuilt($ans4)
+        check $ans4 in (2,)
+
+Which_mobile_crossplatform_react1
+    use what_to_use(ReactNative)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_native_crossplatform($ans1)
+        check $ans1 in (2,)
+        webapp_questions.mobile_crossplatform_budget($ans2)
+        check $ans2 in (2,)
+        webapp_questions.mobile_crossplatform_native_apis($ans3)
+        check $ans3 in (2,)
+        webapp_questions.mobile_crossplatform_external_prebuilt($ans4)
+        check $ans4 in (3,)
+        webapp_questions.mobile_crossplatform_performance_flexiblity($ans5)
+        check $ans5 in (2,)
+
+Which_mobile_crossplatform_xamarin
+    use what_to_use(Xamarin)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_native_crossplatform($ans1)
+        check $ans1 in (2,)
+        webapp_questions.mobile_crossplatform_budget($ans2)
+        check $ans2 in (2,)
+        webapp_questions.mobile_crossplatform_native_apis($ans3)
+        check $ans3 in (1,)
+
+Which_mobile_crossplatform_ionic
+    use what_to_use(Ionic)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_native_crossplatform($ans1)
+        check $ans1 in (2,)
+        webapp_questions.mobile_crossplatform_budget($ans2)
+        check $ans2 in (1,)
+
+Which_mobile_native_objC
+    use what_to_use(ObjectiveC)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_native_crossplatform($ans1)
+        check $ans1 in (1,)
+        webapp_questions.mobile_native_operating_system($ans2)
+        check $ans2 in (1,)
+        webapp_questions.mobile_native_legacy_modern($ans3)
+        check $ans3 in (1,)
+
+Which_mobile_native_swift
+    use what_to_use(Swift)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_native_crossplatform($ans1)
+        check $ans1 in (1,)
+        webapp_questions.mobile_native_operating_system($ans2)
+        check $ans2 in (1,)
+        webapp_questions.mobile_native_legacy_modern($ans3)
+        check $ans3 in (2,)
+
+Which_mobile_native_kotlin
+    use what_to_use(Kotlin)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_native_crossplatform($ans1)
+        check $ans1 in (1,)
+        webapp_questions.mobile_native_operating_system($ans2)
+        check $ans2 in (2,)
+        webapp_questions.mobile_native_legacy_modern($ans3)
+        check $ans3 in (2,)
+
+Which_mobile_native_java
+    use what_to_use(Java)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_native_crossplatform($ans1)
+        check $ans1 in (1,)
+        webapp_questions.mobile_native_operating_system($ans2)
+        check $ans2 in (2,)
+        webapp_questions.mobile_native_legacy_modern($ans3)
+        check $ans3 in (1,)
+
+Which_mobile_database
+    use what_to_use(NoDB)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_db_needed($ans1)
+        check $ans1 in (2,)
+
+Which_mobile_database_cloud
+    use what_to_use(Cloud)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_db_needed($ans1)
+        check $ans1 in (1,)
+        webapp_questions.mobile_db_cloud_local($ans2)
+        check $ans2 in (1,)
+
+Which_mobile_database_local
+    use what_to_use(Local)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_db_needed($ans1)
+        check $ans1 in (1,)
+        webapp_questions.mobile_db_cloud_local($ans2)
+        check $ans2 in (2,)
+
+Which_mobile_database_structured_both
+    use what_to_use(MicrosoftSQL)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_db_needed($ans1)
+        check $ans1 in (1,)
+        webapp_questions.mobile_db_structure($ans2)
+        check $ans2 in (1,)
+        webapp_questions.mobile_db_structured_robustness($ans3)
+        check $ans3 in (3,)
+
+Which_mobile_database_structured_robust_low
+    use what_to_use(PostgreSQL)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_db_needed($ans1)
+        check $ans1 in (1,)
+        webapp_questions.mobile_db_structure($ans2)
+        check $ans2 in (1,)
+        webapp_questions.mobile_db_structured_robustness($ans3)
+        check $ans3 in (1,)
+        webapp_questions.mobile_db_structured_robust_budget($ans4)
+        check $ans4 in (1,)
+
+Which_mobile_database_structured_robust_high
+    use what_to_use(Oracle)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_db_needed($ans1)
+        check $ans1 in (1,)
+        webapp_questions.mobile_db_structure($ans2)
+        check $ans2 in (1,)
+        webapp_questions.mobile_db_structured_robustness($ans3)
+        check $ans3 in (1,)
+        webapp_questions.mobile_db_structured_robust_budget($ans4)
+        check $ans4 in (2,)
+
+Which_mobile_database_structured_performant_compatible
+    use what_to_use(MySQL)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_db_needed($ans1)
+        check $ans1 in (1,)
+        webapp_questions.mobile_db_structure($ans2)
+        check $ans2 in (1,)
+        webapp_questions.mobile_db_structured_robustness($ans3)
+        check $ans3 in (2,)
+        webapp_questions.mobile_db_structured_performant_choice($ans4)
+        check $ans4 in (1,)
+
+Which_mobile_database_structured_performant_modern
+    use what_to_use(MariaDB)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_db_needed($ans1)
+        check $ans1 in (1,)
+        webapp_questions.mobile_db_structure($ans2)
+        check $ans2 in (1,)
+        webapp_questions.mobile_db_structured_robustness($ans3)
+        check $ans3 in (2,)
+        webapp_questions.mobile_db_structured_performant_choice($ans4)
+        check $ans4 in (2,)
+
+Which_mobile_database_unstructured_scalable
+    use what_to_use(Cassandra)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_db_needed($ans1)
+        check $ans1 in (1,)
+        webapp_questions.mobile_db_structure($ans2)
+        check $ans2 in (2,)
+        webapp_questions.mobile_db_unstructured_choice($ans3)
+        check $ans3 in (1,)
+
+
+Which_mobile_database_unstructured_flexible
+    use what_to_use(MongoDB)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (2,)
+        webapp_questions.mobile_db_needed($ans1)
+        check $ans1 in (1,)
+        webapp_questions.mobile_db_structure($ans2)
+        check $ans2 in (2,)
+        webapp_questions.mobile_db_unstructured_choice($ans3)
+        check $ans3 in (2,)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##################
+#FOR THE BACKEND
+##################
+
+backend0
+    use what_to_use(No_backend)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(False)
+
+backend1
+    use what_to_use(Oracle_Cloud)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(True)
+        webapp_questions.cloud_backend(True)
+        webapp_questions.choose_P_I_B_aas($ans1)
+        check $ans1 in (1,)
+        webapp_questions.PaaS_choice($ans2)
+        check $ans2 in (1,)
+        webapp_questions.PaaS_flexibility_choice($ans3)
+        check $ans3 in (1,)
+
+backend2
+    use what_to_use(Google_App_Engine)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(True)
+        webapp_questions.cloud_backend(True)
+        webapp_questions.choose_P_I_B_aas($ans1)
+        check $ans1 in (1,)
+        webapp_questions.PaaS_choice($ans2)
+        check $ans2 in (1,)
+        webapp_questions.PaaS_flexibility_choice($ans3)
+        check $ans3 in (2,)
+
+backend3
+    use what_to_use(Heroku)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(True)
+        webapp_questions.cloud_backend(True)
+        webapp_questions.choose_P_I_B_aas($ans1)
+        check $ans1 in (2,)
+        webapp_questions.PaaS_choice($ans2)
+        check $ans2 in (1,)
+
+backend4
+    use what_to_use(AWS)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(True)
+        webapp_questions.cloud_backend(True)
+        webapp_questions.choose_P_I_B_aas($ans1)
+        check $ans1 in (2,)
+        webapp_questions.IaaS_choice($ans2)
+        check $ans2 in (1,)
+
+backend5
+    use what_to_use(Google_Cloud_Compute_Engine)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(True)
+        webapp_questions.cloud_backend(True)
+        webapp_questions.choose_P_I_B_aas($ans1)
+        check $ans1 in (2,)
+        webapp_questions.IaaS_choice($ans2)
+        check $ans2 in (2,)
+        webapp_questions.IaaS_feature_choice($ans3)
+        check $ans3 in (1,)
+
+
+backend6
+    use what_to_use(Azure_VM)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(True)
+        webapp_questions.cloud_backend(True)
+        webapp_questions.choose_P_I_B_aas($ans1)
+        check $ans1 in (2,)
+        webapp_questions.IaaS_choice($ans2)
+        check $ans2 in (2,)
+        webapp_questions.IaaS_feature_choice($ans3)
+        check $ans3 in (2,)
+
+backend7
+    use what_to_use(Firebase)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(True)
+        webapp_questions.cloud_backend(True)
+        webapp_questions.choose_P_I_B_aas($ans1)
+        check $ans1 in (3,)
+        webapp_questions.BaaS_choice($ans2)
+        check $ans2 in (1,)
+
+backend8
+    use what_to_use(Parse)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(True)
+        webapp_questions.cloud_backend(True)
+        webapp_questions.choose_P_I_B_aas($ans1)
+        check $ans1 in (3,)
+        webapp_questions.BaaS_choice($ans2)
+        check $ans2 in (2,)
+        webapp_questions.BaaS_flexibility_choice($ans3)
+        check $ans3 in (1,)
+
+backend9
+    use what_to_use(Backendless)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(True)
+        webapp_questions.cloud_backend(True)
+        webapp_questions.choose_P_I_B_aas($ans1)
+        check $ans1 in (3,)
+        webapp_questions.BaaS_choice($ans2)
+        check $ans2 in (2,)
+        webapp_questions.BaaS_flexibility_choice($ans3)
+        check $ans3 in (2,)
+
+backend10
+    use what_to_use(MySQL_Embedded)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(True)
+        webapp_questions.cloud_backend(False)
+        webapp_questions.local_library_choice($ans1)
+        check $ans1 in (1,)
+        webapp_questions.DB_choice($ans2)
+        check $ans2 in (1,)
+
+backend11
+    use what_to_use(MySQL)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(True)
+        webapp_questions.cloud_backend(False)
+        webapp_questions.local_library_choice($ans1)
+        check $ans1 in (1,)
+        webapp_questions.DB_choice($ans2)
+        check $ans2 in (2,)
+
+
+backend12
+    use what_to_use(LocalForage)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(True)
+        webapp_questions.cloud_backend(False)
+        webapp_questions.local_library_choice($ans1)
+        check $ans1 in (2,)
+        webapp_questions.JS_choice($ans2)
+        check $ans2 in (1,)
+
+backend13
+    use what_to_use(PouchDB)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.backend(True)
+        webapp_questions.cloud_backend(False)
+        webapp_questions.local_library_choice($ans1)
+        check $ans1 in (2,)
+        webapp_questions.JS_choice($ans2)
+        check $ans2 in (2,)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##################
+#FOR THE CSS
+##################
+
+css1
+    use what_to_use(Vanilla_CSS)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.css_choice($ans1)
+        check $ans1 in (1,)
+
+css2
+    use what_to_use(Bulma)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.css_choice($ans1)
+        check $ans1 in (2,)
+        webapp_questions.framework_choice($ans2)
+        check $ans2 in (1,)
+        webapp_questions.framework_easy_choice($ans3)
+        check $ans3 in (1,)
+
+css3
+    use what_to_use(Bootstrap)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.css_choice($ans1)
+        check $ans1 in (2,)
+        webapp_questions.framework_choice($ans2)
+        check $ans2 in (1,)
+        webapp_questions.framework_easy_choice($ans3)
+        check $ans3 in (2,)
+
+css4
+    use what_to_use(Material_UI)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.css_choice($ans1)
+        check $ans1 in (2,)
+        webapp_questions.framework_choice($ans2)
+        check $ans2 in (2,)
+        webapp_questions.framework_customizable_choice($ans3)
+        check $ans3 in (1,)
+
+css5
+    use what_to_use(Tailwind)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.css_choice($ans1)
+        check $ans1 in (2,)
+        webapp_questions.framework_choice($ans2)
+        check $ans2 in (2,)
+        webapp_questions.framework_customizable_choice($ans3)
+        check $ans3 in (2,)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##################
+#FOR THE JS
+##################
+
+js1
+    use what_to_use(Vanilla_JS)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.js_choice($ans1)
+        check $ans1 in (1,)
+
+js2
+    use what_to_use(Ember)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.js_choice($ans1)
+        check $ans1 in (2,)
+        webapp_questions.framework_scale_choice($ans2)
+        check $ans2 in (1,)
+
+js3
+    use what_to_use(Next)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.js_choice($ans1)
+        check $ans1 in (2,)
+        webapp_questions.framework_scale_choice($ans2)
+        check $ans2 in (2,)
+        webapp_questions.framework_small_scale_choice(False)
+        webapp_questions.framework_small_scale_no_datav_choice($ans3)
+        check $ans3 in (1,)
+        webapp_questions.framework_small_scale_no_datav_ssr_choice($ans4)
+        check $ans4 in (1,)
+
+js4
+    use what_to_use(Nuxt)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.js_choice($ans1)
+        check $ans1 in (2,)
+        webapp_questions.framework_scale_choice($ans2)
+        check $ans2 in (2,)
+        webapp_questions.framework_small_scale_choice(False)
+        webapp_questions.framework_small_scale_no_datav_choice($ans3)
+        check $ans3 in (1,)
+        webapp_questions.framework_small_scale_no_datav_ssr_choice($ans4)
+        check $ans4 in (2,)
+
+js5
+    use what_to_use(Angular)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.js_choice($ans1)
+        check $ans1 in (2,)
+        webapp_questions.framework_scale_choice($ans2)
+        check $ans2 in (2,)
+        webapp_questions.framework_small_scale_choice(False)
+        webapp_questions.framework_small_scale_no_datav_choice($ans3)
+        check $ans3 in (2,)
+        webapp_questions.framework_small_scale_no_datav_spa_choice($ans4)
+        check $ans4 in (1,)
+
+js6
+    use what_to_use(Vue)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.js_choice($ans1)
+        check $ans1 in (2,)
+        webapp_questions.framework_scale_choice($ans2)
+        check $ans2 in (2,)
+        webapp_questions.framework_small_scale_choice(False)
+        webapp_questions.framework_small_scale_no_datav_choice($ans3)
+        check $ans3 in (2,)
+        webapp_questions.framework_small_scale_no_datav_spa_choice($ans4)
+        check $ans4 in (2,)
+        webapp_questions.framework_small_scale_no_datav_spa_modulated_choice($ans5)
+        check $ans5 in (1,)
+
+js7
+    use what_to_use(REACT)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.js_choice($ans1)
+        check $ans1 in (2,)
+        webapp_questions.framework_scale_choice($ans2)
+        check $ans2 in (2,)
+        webapp_questions.framework_small_scale_choice(False)
+        webapp_questions.framework_small_scale_no_datav_choice($ans3)
+        check $ans3 in (2,)
+        webapp_questions.framework_small_scale_no_datav_spa_choice($ans4)
+        check $ans4 in (2,)
+        webapp_questions.framework_small_scale_no_datav_spa_modulated_choice($ans5)
+        check $ans5 in (2,)
+
+js8
+    use what_to_use(D3_js)
+    when
+        webapp_questions.platform($ans0)
+        check $ans0 in (1,)
+        webapp_questions.js_choice($ans1)
+        check $ans1 in (2,)
+        webapp_questions.framework_scale_choice($ans2)
+        check $ans2 in (2,)
+        webapp_questions.framework_small_scale_choice(True)

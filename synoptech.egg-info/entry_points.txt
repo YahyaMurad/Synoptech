@@ -1,0 +1,2 @@
+[console_scripts]
+synoptech = text_reader:main

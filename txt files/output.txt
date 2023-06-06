@@ -1,0 +1,4 @@
+Are you going to be working with legacy code and older APIs or with modern standards?
+  1. Legacy
+  2. Modern
+? [1-2] 

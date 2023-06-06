@@ -1,0 +1,295 @@
+#questions.kqb
+
+platform($ans)
+	Do you want to have a web or mobile app?
+	---
+	$ans = select_1
+		1: Web
+		2: Mobile
+
+mobile_native_crossplatform($ans)
+	Do you want a native or crossplatform app?
+	---
+	$ans = select_1
+		1: Native
+		2: Crossplatform
+
+mobile_native_operating_system($ans)
+	Do you want an IOS or Android app?
+	---
+	$ans = select_1
+		1: IOS
+		2: Android
+
+mobile_native_legacy_modern($ans)
+	Are you going to be working with legacy code and older APIs or with modern standards?
+	---
+	$ans = select_1
+		1: Legacy
+		2: Modern
+
+mobile_crossplatform_budget($ans)
+	Are you on a low or high budget?
+	---
+	$ans = select_1
+		1: Low
+		2: High
+
+mobile_crossplatform_native_apis($ans)
+	Are you going to be making usage of native APIs?
+	---
+	$ans = select_1
+		1: Yes
+		2: No
+
+mobile_crossplatform_external_prebuilt($ans)
+	Do you prefer working with external widgets or prebuilt widgets?
+	---
+	$ans = select_1
+		1: External
+		2: Prebuilt
+		3: Doesn't Matter / Not Sure
+
+mobile_crossplatform_performance_flexiblity($ans)
+	Do you prefer performance or flexibility?
+	---
+	$ans = select_1
+		1: Performace
+		2: Flexibility
+
+mobile_db_needed($ans)
+	Do you need a database for your mobile app?
+	---
+	$ans = select_1
+		1: Yes
+		2: No
+
+mobile_db_cloud_local($ans)
+	Do you need a local or cloud database?
+	---
+	$ans = select_1
+		1: Local
+		2: Cloud
+
+mobile_db_structure($ans)
+	Will your database store structured or unstructured data?
+	---
+	$ans = select_1
+		1: Structured
+		2: Unstructured
+
+mobile_db_structured_robustness($ans)
+	Do you need your structured database to be more robust or more performant?
+	---
+	$ans = select_1
+		1: Robust
+		2: Performant
+		3: Both
+
+mobile_db_structured_robust_budget($ans)
+	Are you on a low or high budget?
+	---
+	$ans = select_1
+		1: Low
+		2: High
+
+mobile_db_structured_performant_choice($ans)
+	Do you want a more compatible or modern database?
+	---
+	$ans = select_1
+		1: Compatible
+		2: Modern
+
+mobile_db_unstructured_choice($ans)
+	Do you want a more scalable or more flexible database?
+	---
+	$ans = select_1
+		1: Scalable
+		2: Flexible
+
+
+
+
+
+
+
+
+
+#These are all questions for the right side of the graph
+
+backend($ans)
+	Do you require a backend?
+	---
+	$ans = yn
+
+
+################
+#SUB-BRANCH FOR THE CLOUD BACKEND
+################
+
+cloud_backend($ans)
+	Do you prefer a cloud backend?
+	---
+	$ans = yn
+
+
+choose_P_I_B_aas($ans)
+	Which of these cloud services do you prefer?
+	---
+	$ans = select_1
+		1: PaaS (Platform as a Service)
+		2: IaaS (Infrastructure as a Service)
+		3: BaaS (Backend as a Service)
+
+
+PaaS_choice($ans)
+	What do you prefer here, simplicity or flexibility?
+	---
+	$ans = select_1
+		1: Flexible
+		2: Simple
+
+PaaS_flexibility_choice($ans)
+	Do you prefer the extra features offered by Google or Oracle?
+	---
+	$ans = select_1
+		1: Oracle
+		2: Google
+      
+IaaS_choice($ans)
+	Do you prefer popularity, reliability, and market dominace or price, machine learning, and Microsoft integration?
+	---  
+	$ans = select_1
+		1: First choice (Popularity & Support)
+		2: Second choice (Extra Feature)
+
+IaaS_feature_choice($ans)
+	Do you prefer Google ML features or Microsoft integration?
+	---
+	$ans = select_1
+		1: Google
+		2: Microsoft
+
+BaaS_choice($ans)
+	Do you prefer built-in features or flexibility?
+	---  
+	$ans = select_1
+		1: Built-in features
+		2: Flexibility
+
+
+BaaS_flexibility_choice($ans)
+	Free self-hosting or not?
+	---
+	$ans = select_1
+		1: Self-hosting
+		2: Not-self hosting
+
+################
+#SUB-BRANCH FOR THE LOCAL BACKEND
+################
+
+local_library_choice($ans)
+	Which from among the following options do you prefer?
+	---
+	$ans = select_1
+		1: Normal DB
+		2: JS Framework
+
+DB_choice($ans)
+	Do you prefer a light weight or there is no need?
+	---
+	$ans = select_1
+		1: Light weight 
+		2: No need
+
+JS_choice($ans)
+	Do you prefer a Key-value data model or are ok with NoSQL datamodel?
+	---
+	$ans = select_1
+		1: Key-value 
+		2: NoSQL
+
+################
+#SUB-BRANCH FOR THE CSS
+################
+
+css_choice($ans)
+	Do you prefer vanilla CSS or a framework?
+	---
+	$ans = select_1
+		1: Vanilla CSS
+		2: Framework
+
+framework_choice($ans)
+	Do you want it to be easy to use or customizable?
+	---
+	$ans = select_1
+		1: Easy to use
+		2: Cuztomizable
+
+framework_easy_choice($ans)
+	Do you want a more modern framework or a traditional one?
+	---
+	$ans = select_1
+		1: Modern
+		2: Traditional 
+
+framework_customizable_choice($ans)
+	Do you prefer a prefer performance optimization or there is no need?
+	---
+	$ans = select_1
+		1: performance optimization 
+		2: No need 
+
+################
+#SUB-BRANCH FOR THE JS
+################
+
+js_choice($ans)
+	For your website do you prefer vanilla JS or a framework?
+	---
+	$ans = select_1
+		1: Vanilla JS
+		2: Framework
+
+framework_scale_choice($ans)
+	What scale do you prefer for your framework?
+	---
+	$ans = select_1
+		1: Large Scale
+		2: Small Scale
+
+framework_small_scale_choice($ans)
+	Do you want data visualisation or not?
+	---
+	$ans = yn
+
+framework_small_scale_no_datav_choice($ans)
+	What do you prefer from the 2 below?
+	---
+	$ans = select_1
+		1: SSR (Server Side Rendering)
+		2: SPA (Single Page App)
+
+framework_small_scale_no_datav_ssr_choice($ans)
+	Which framework will you use?
+	---
+	$ans = select_1
+		1: React
+		2: Vue
+
+framework_small_scale_no_datav_spa_choice($ans)
+	Do you prefer opinionated or modulated?
+	---
+	$ans = select_1
+        1: opinionated
+		2: modulated
+
+framework_small_scale_no_datav_spa_modulated_choice($ans)
+	Do you prefer simplicity or flexibility?
+	---
+	$ans = select_1
+		1: simplicity
+		2: flexibility
+
