@@ -1,7 +1,0 @@
-setup.py
-synoptech.egg-info/PKG-INFO
-synoptech.egg-info/SOURCES.txt
-synoptech.egg-info/dependency_links.txt
-synoptech.egg-info/entry_points.txt
-synoptech.egg-info/requires.txt
-synoptech.egg-info/top_level.txt
