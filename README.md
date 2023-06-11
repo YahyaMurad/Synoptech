@@ -2,6 +2,12 @@
 
 An expert system that helps individuals. It will provide a briefing about technologies to be used in certain tasks saving time and money spent on research to find the optimal technologies to fulfil solutions. It can be used when creating personal projects or other similar things.
 
+## Environment used
+
+- Python - `3.10.10`
+- customtkinter - `5.1.3`
+- Pyke - `1.1.1`
+
 ## How to run Synoptech
 
 ### Installing the dependencies
